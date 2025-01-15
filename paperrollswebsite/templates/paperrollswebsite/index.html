@@ -1,0 +1,123 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EFD Rollers | Professional Online Presence</title>
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'paperrollswebsite/main.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Paper Rolls Tz</h1>
+        <p>Your trusted supplyer for high quality paper rolls</p>
+    </header>
+    <nav>
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="nav-links">
+            <a href="#about">About Us</a>
+            <a href="#products">Products</a>
+            <a href="#partners">Partners</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+    
+    <section id="about" class="container">
+        <h2>About Us</h2>
+        <p>We provide top quality paper rolls for businesses of all sizes. Our commitment to quality and customer satisfaction makes us a leader in the industry.</p>
+    </section>
+
+    <section id="products" class="container">
+        <div class="product">
+            <img src="{% static 'paperrollswebsite/imgs/image2.png' %}" alt="EFD Roller 1">
+            <h3>Roller Type A</h3>
+            <p>High-quality roller compatible with most EFD machines.</p>
+        </div>
+        <div class="product">
+            <img src="{% static 'paperrollswebsite/imgs/image3.jpg' %}" alt="EFD Roller 2">
+            <h3>Roller Type B</h3>
+            <p>Durable and reliable for long-term use.</p>
+        </div>
+    </section>
+
+    <section id="why-choose-us" class="container">
+        <h2>Why Choose Us</h2>
+        <div class="reasons">
+            <div class="reason">
+                <i class="fas fa-star"></i>
+                <h3>High Quality</h3>
+                <p>Our receipt rollers are made with premium materials approved by TBS to ensure durability and reliability for your business needs.</p>
+            </div>
+            <div class="reason">
+                <i class="fas fa-truck"></i>
+                <h3>Fast Delivery</h3>
+                <p>We guarantee prompt and efficient delivery, ensuring you never run out of essential supplies.</p>
+            </div>
+            <div class="reason">
+                <i class="fas fa-handshake"></i>
+                <h3>Trusted Partners</h3>
+                <p>We are trusted by leading businesses in the industry for our commitment to excellence and customer satisfaction.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="partners">
+        <h2>Our Partners</h2>
+        <img src="{% static 'paperrollswebsite/imgs/sort.jpg' %}" alt="Partner 1">
+        <img src="{% static 'paperrollswebsite/imgs/waste.jpg' %}" alt="Partner 2">
+    </section>
+
+    <section id="testimonials" class="container">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonials">
+            <div class="testimonial">
+                <p>"EFD Rollers has provided exceptional quality rollers that last long. Their service is reliable, and I highly recommend them!"</p>
+                <h4>- John Doe, Business Owner</h4>
+            </div>
+            <div class="testimonial">
+                <p>"Thanks to EFD Rollers, our EFD machines now work seamlessly. Their products are truly top-notch."</p>
+                <h4>- Jane Smith, Retail Manager</h4>
+            </div>
+            <div class="testimonial">
+                <p>"Affordable and durable rollers! EFD Rollers has been our trusted supplier for years. Excellent customer service too."</p>
+                <h4>- Ahmed Musa, Accountant</h4>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-details">
+            <div>
+                <i class="fas fa-phone-alt"></i>
+                <p><a href="tel:+255759669810">+255 759 669 810</a></p>
+            </div>
+            <div>
+                <i class="fas fa-envelope"></i>
+                <p><a href="mailto:praygodmzava@gmail.com">info@efdrollers.com</a></p>
+            </div>
+            <div>
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Dar es Salaam, Tanzania</p>
+                <p>Magufuli Bus Terminal</p>
+                <p>3rd Floor, wing A</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 PAPER Rolls Tz. All rights reserved.</p>
+    </footer>
+
+    <script src="{% static 'paperrollswebsite/js/toggleMenu.js' %}"></script>
+    <script src="{% static 'paperrollswebsite/js/why_choose_us_animation.js' %}"></script>
+</body>
+</html>
