@@ -144,8 +144,8 @@ section {
 
 #about {
     position: relative;
-    text-align: center;
-    padding: 3rem 1rem;
+    text-align: justify;
+    padding: 3rem 1.4rem;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 15px;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
